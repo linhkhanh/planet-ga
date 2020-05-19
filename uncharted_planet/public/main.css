@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Varela+Round&display=swap');
+body {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRlvVECQlGleCN417XzE8uL94Dse6YKTzM7rF5sMSwGQ1b--WMt&usqp=CAU');
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+header {
+    padding: 0.6%;
+    background-color: white;
+    opacity: 0.4;
+    color: black;
+}
+section {
+    width: 60%;
+    margin: 7% auto;
+    text-align: center;
+}
+.link {
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 1%;
+    display: inline;
+    margin: 1%;
+}
+.link:hover {
+    box-shadow: 1px 1px 2px black, 0 0 25px cyan, 0 0 5px cyan;
+}
+.link > a {
+    color: white;
+}
+
+section > h1 {
+    margin-bottom: 5%;
+}
+.carousel {
+    width: 40%;
+    height: 400px;
+    margin: 5% auto;
+}
+.pic {
+    width:100%; 
+    height: 100%;
+    object-fit: cover; 
+}
+.exo {
+    display: inline;
+}
+.nav > a {
+    color: black;
+}
+a {
+    color: white;
+}
+.header {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+nav {
+    display: flex;
+    flex-direction: row nowrap;
+    width: 20%;
+    justify-content: flex-end;
+    padding-right: 2%;
+}
+.nav {
+    margin: 3%;
+    font-size: 24px;
+}
+.all {
+    width: 50%;
+    margin: auto;
+}
+.all > h1 {
+    text-align: center;
+}
+.form {
+    width: 45%;
+    margin: auto;
+}
+.form > h1 {
+    text-align: center;
+    margin: 5% auto;
+}
