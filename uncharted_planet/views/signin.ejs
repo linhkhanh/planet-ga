@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Planet</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="/main.css" />
+</head>
+
+<body>
+    <header class="header">
+        <h2 class="exo">Exobiology</h2>
+        <nav>
+            <div class="nav"><a href="/">Home</a></div>
+        </nav>
+    </header>
+    <div class="form">
+        <h1 class='new'>SIGN IN</h1>
+        <form action="/login_submit" method="POST">
+            
+
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" name="email" class="form-control" placeholder="Your email" required="true" />
+            </div>
+
+            <div class="form-group">
+                <label for="pw">Password</label>
+                <input type="text" name="pw" class="form-control" placeholder="enter password" required="true" />
+            </div>
+            <input type="submit" class="btn btn-primary" value="Sign in">
+        </form>
+    </div>
+</body>
+
+</html>

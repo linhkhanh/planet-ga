@@ -14,6 +14,7 @@
         <h2 class="exo">Exobiology</h2>
         <nav>
             <div class="nav"><a href="/">Home</a></div>
+            <div class="nav"><a href="/planet/<%= id;%>"><%= name; %></a></div>
         </nav>
     </header>
     <div class="form">
@@ -28,6 +29,15 @@
                 <input type="text" name="description" class="form-control" placeholder="description" required="true" />
             </div>
 
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" name="email" class="form-control" placeholder="Your email" required="true" />
+            </div>
+
+            <div class="form-group">
+                <label for="pw">Password</label>
+                <input type="text" name="pw" class="form-control" placeholder="enter password" required="true" />
+            </div>
             <input type="submit" class="btn btn-primary" value="Create">
         </form>
     </div>

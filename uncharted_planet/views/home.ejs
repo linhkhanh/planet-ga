@@ -11,8 +11,17 @@
 </head>
 
 <body>
-    <header>
+    <header class="header">
         <h2 class="exo">Exobiology</h2>
+        <nav>
+            <div class="nav"><a href="/planet/<%= id;%>"><%= name; %></a></div>
+            <% if(name) { %>
+                <div class="nav"><a href="/logout">Log out</a></div>
+            <% } else { %>
+                <div class="nav"><a href="/login">Log in</a></div>
+            <% } %>
+            
+        </nav>
     </header>
     <section>
         <h1>EXPLORE MUTARA NEBULA</h1>
